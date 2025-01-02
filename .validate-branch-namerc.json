@@ -1,0 +1,4 @@
+{
+  "pattern": "^(main){1}$|^(f|b|h)/(\\d+).+$",
+  "errorMsg": "Branch name must start with `f/`(feature), `b/`(bugfix), `h/`(hotfix) and be followed by `xxx` where xxx is the issue number"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "meta_title": "English meta title",
+  "meta_description": "This is a meta description in English.",
+  "meta_keywords": "english, meta, keywords",
+  "home_title": "⚡️ Astro Polyglot Starter Kit",
+  "home_description": "This is my go-to starter for building SEO-friendly, blazing-fast, and fully internationalized websites. Packed with AstroJS, Tailwind, Motion, React + TS, Paraglide, and Lucide Icons — everything’s set up so you can skip the hassle and dive right in.",
+  "home_button": "Clone this project now",
+  "only_in_english": "This part is only in EN and fallbacks to EN in other languages."
+}

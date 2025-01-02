@@ -1,0 +1,244 @@
+---
+import { Image } from "astro:assets";
+import { Facebook, Github, Twitter } from "lucide-react";
+import logo from "@assets/logo.svg";
+---
+
+<footer>
+    <div class="relative mx-auto max-w-6xl px-4 sm:px-6">
+        <div
+            class="pointer-events-none absolute bottom-0 left-1/2 -z-10 -translate-x-1/2"
+            aria-hidden="true"
+        >
+            <div
+                class="relative left-52 h-32 w-72 rounded-full bg-gradient-to-r from-blue-500 via-green-500 to-purple-500 opacity-20 blur-3xl"
+            >
+            </div>
+        </div>
+        <div
+            class="grid grid-cols-2 justify-between gap-12 py-8 sm:grid-rows-[auto_auto] md:grid-cols-4 md:grid-rows-[auto_auto] md:py-12 lg:grid-cols-[repeat(4,minmax(0,140px))_1fr] lg:grid-rows-1 xl:gap-20"
+        >
+            {/* 1st block */}
+            <div class="space-y-2">
+                <h3 class="text-sm font-medium text-gray-200">Product</h3>
+                <ul class="space-y-2 text-sm">
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Features
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Integrations
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Pricing &amp; Plans
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Changelog
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Our method
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            {/* 2nd block */}
+            <div class="space-y-2">
+                <h3 class="text-sm font-medium text-gray-200">Company</h3>
+                <ul class="space-y-2 text-sm">
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            About us
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Diversity &amp; Inclusion
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Careers
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Financial statements
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            {/* 3rd block */}
+            <div class="space-y-2">
+                <h3 class="text-sm font-medium text-gray-200">Resources</h3>
+                <ul class="space-y-2 text-sm">
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Community
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Terms of service
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Report a vulnerability
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            {/* 4th block */}
+            <div class="space-y-2">
+                <h3 class="text-sm font-medium text-gray-200">
+                    Content Library
+                </h3>
+                <ul class="space-y-2 text-sm">
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Templates
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Tutorials
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Knowledge base
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Learn
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Cookie manager
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            {/* 5th block */}
+            <div class="col-span-2 md:col-span-4 lg:col-span-1 lg:text-right">
+                <Image
+                    class="inline-block"
+                    src={logo}
+                    width={60}
+                    alt="Anteater logo by Siwalik"
+                />
+                <div class="text-sm">
+                    <p class="text-primary/65 hover:text-primary mb-3">
+                        <a href="https://www.siwalik.in">siwalik dot in</a>
+
+                        <span class="text-gray-700"> · </span>
+                        <a
+                            class="hover:text-primary text-primary/65 transition"
+                            href="#0"
+                        >
+                            Terms
+                        </a>
+                    </p>
+                    <ul class="inline-flex gap-1">
+                        <li>
+                            <a
+                                class="hover:text-primary flex items-center justify-center text-white transition"
+                                href="#0"
+                                aria-label="Twitter"
+                            >
+                                <Twitter />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="hover:text-primary text-whit flex items-center justify-center transition"
+                                href="#0"
+                                aria-label="Facebook"
+                            >
+                                <Facebook />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="hover:text-primary text-whit flex items-center justify-center transition"
+                                href="#0"
+                                aria-label="Github"
+                            >
+                                <Github />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

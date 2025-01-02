@@ -1,0 +1,9 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "meta_title": "Deutscher Meta-Titel",
+  "meta_description": "Dies ist eine Meta-Beschreibung auf Deutsch.",
+  "meta_keywords": "deutsch, meta, schlüsselwörter",
+  "home_title": "⚡️ Astro Mehrsprachiges Starter Kit",
+  "home_description": "Das ist mein Lieblings-Starterkit für den Aufbau von SEO-freundlichen, blitzschnellen und vollständig internationalisierten Websites. Vollgepackt mit AstroJS, Tailwind, Motion, React + TS, Paraglide und Lucide Icons – alles ist eingerichtet, damit du direkt loslegen kannst, ohne dir den Kopf zu zerbrechen.",
+  "home_button": "Klone dieses Projekt jetzt"
+}

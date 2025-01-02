@@ -1,0 +1,39 @@
+---
+import * as m from "@messages/messages";
+import { author } from "@constants";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+
+type Props = {
+  pageTitle?: string;
+};
+
+const { currentLocale, props } = Astro;
+let { pageTitle } = props;
+pageTitle = pageTitle || m.meta_title();
+const pageDescription = m.meta_description();
+const pageKeywords = m.meta_keywords();
+---
+
+<!doctype html>
+<html lang={currentLocale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content={author} />
+    <meta name="description" content={pageDescription} />
+    <meta name="keywords" content={pageKeywords} />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="icon" type="image/x-icon" href="../../src/assets/logo.svg" />
+    <title>{pageTitle}</title>
+  </head>
+  <body class="flex min-h-screen flex-col bg-gray-950 text-base text-gray-200">
+    <Header />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
