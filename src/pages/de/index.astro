@@ -18,7 +18,7 @@ import BaseLayout from "@layouts/BaseLayout.astro";
           </h1>
           <div class="mx-auto max-w-3xl">
             <p
-              class="text-primary/65 mb-8 text-xl"
+              class="mb-8 text-xl text-primary/65"
               data-aos="fade-up"
               data-aos-delay={200}
             >
@@ -30,7 +30,8 @@ import BaseLayout from "@layouts/BaseLayout.astro";
               <div data-aos="fade-up" data-aos-delay={400}>
                 <a
                   class="rounded border border-gray-400 bg-white px-4 py-2 font-semibold text-gray-800 shadow hover:bg-gray-200"
-                  href="#0"
+                  href="https://github.com/siwalikm/astro-polyglot-starter"
+                  target="_blank"
                 >
                   <span class="relative inline-flex items-center">
                     {m.home_button()}
@@ -40,10 +41,10 @@ import BaseLayout from "@layouts/BaseLayout.astro";
             </div>
           </div>
           <div
-            class="before:to-primary/50 after:to-primary/50 inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent"
+            class="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-primary/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-primary/50"
           >
             <span
-              class="to-secondary inline-flex bg-gradient-to-r from-white bg-clip-text text-transparent"
+              class="inline-flex bg-gradient-to-r from-white to-secondary bg-clip-text text-transparent"
             >
               {m.only_in_english()}
             </span>
