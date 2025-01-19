@@ -8,7 +8,7 @@ npm create astro@latest -- --template siwalikm/astro-polyglot-starter
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/siwalikm/astro-polyglot-starter/main)
 
 ## Some projects using this starter
-- https://urlabplan.de
+- https://urlaubplan.de
 
 Did you create a project using polyglot? [submit it here](https://github.com/siwalikm/astro-polyglot-starter/issues)
 
